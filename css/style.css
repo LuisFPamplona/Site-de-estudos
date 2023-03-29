@@ -1,0 +1,57 @@
+body {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+#quadrado {
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    padding-top:10px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#confirm {
+    width: 80px;
+    height: 20px;
+    border: solid 1px;
+    background-color: crimson;
+    font-style: italic;
+    box-shadow: 1px 1px 0;
+}
+#confirm:active {
+    width: 78px;
+    height: 19px;
+    border: solid 1px;
+    background-color: crimson;
+    margin-top: 5px;
+    font-size: 10pt;
+
+    box-shadow: 1px 1px 0;
+}
+#register {
+    width: 140px;
+    height: 20px;
+    border: solid 1px;
+    font-style: italic;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+}
+#register:active {
+    width: 138px;
+    height: 19px;
+    margin-top: 5px;
+    font-size: 10pt;
+}
+
+.botao {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+}
